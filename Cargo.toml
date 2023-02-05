@@ -8,6 +8,8 @@ license = "MPL-2.0"
 edition = "2018"
 
 [features]
+log = ["dep:log"]
+defmt = ["dep:defmt"]
 util = [ "structopt", "linux-embedded-hal", "simplelog", "humantime", "bitbang-hal", "shared-bus", "nb", "void" ]
 default = ["log"]
 
