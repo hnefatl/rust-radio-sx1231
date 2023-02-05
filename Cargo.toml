@@ -15,7 +15,7 @@ default = ["log"]
 
 [dependencies]
 libc = { version = "0.2", optional = true }
-radio = "https://github.com/hnefatl/radio-hal"
+radio = { git = "https://github.com/hnefatl/radio-hal" }
 embedded-hal = { version = "0.2.4", features = ["unproven"] }
 modular-bitfield = "0.11.0"
 
