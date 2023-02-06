@@ -11,7 +11,7 @@ edition = "2018"
 log = ["dep:log"]
 defmt = ["dep:defmt"]
 util = [ "structopt", "linux-embedded-hal", "simplelog", "humantime", "bitbang-hal", "shared-bus", "nb", "void" ]
-default = ["log"]
+default = ["defmt"]
 
 [dependencies]
 libc = { version = "0.2", optional = true }
